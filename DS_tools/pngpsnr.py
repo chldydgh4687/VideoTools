@@ -24,9 +24,8 @@ def psnr():
             print(name)
             file = name.split('_')
             file[2] = file[2][:-4]
-            file[0] = file[0][12:]
+            file[0] = file[0][10:]
             qp_name = file[0]
-
             if target_name == qp_name:
                 seq_list = []
                 target_img = cv2.imread(org)
