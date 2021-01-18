@@ -11,5 +11,5 @@ $sudo apt install flatpak
 $flatpak install $파일명 --user
 ```
 
-#TMIV (To Immersive Video Coding)
+# TMIV (To Immersive Video Coding)
 - https://gitlab.com/mpeg-i-visual/tmiv/-/tree/v7.1#building-and-installing-tmiv
