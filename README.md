@@ -27,3 +27,7 @@ $flatpak run de.rwth_aachen.ient.YUView
 
 # TMIV (To Immersive Video Coding)
 - https://gitlab.com/mpeg-i-visual/tmiv/-/tree/v7.1#building-and-installing-tmiv
+
+# RTX 3090 CUDA 설치 ( in Windows10 )
+- https://n1094.tistory.com/42 ( cuda 설치 방법 )
+- https://koos808.tistory.com/41 ( cuda 버전, tf-nightly-gpu 버전, pytorch )
