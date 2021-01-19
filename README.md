@@ -1,11 +1,18 @@
 # VideoTools
-자주쓰는 비디오 코드 & 툴
+자주쓰는 비디오 코드 & 툴 ( in ubuntu 18.04 )
+
+# FFMPEG
+```sh
+$sudo apt update
+$sudo apt install ffmpeg
+$ffmpeg -version
+```
 
 
 # YUView
 - 리눅스에서 yuv 보여주는 view
 - https://flathub.org/apps/details/de.rwth_aachen.ient.YUView
-```
+```sh
 #flatpak (like ubuntu app center) 
 $sudo apt install flatpak
 $sudo apt install gnome-software-plugin-flatpak
