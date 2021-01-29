@@ -8,7 +8,6 @@ $sudo apt install ffmpeg
 $ffmpeg -version
 ```
 
-
 # YUView
 - 리눅스에서 yuv 보여주는 view
 - https://flathub.org/apps/details/de.rwth_aachen.ient.YUView
@@ -25,7 +24,7 @@ $flatpak install $파일명 --user
 $flatpak run de.rwth_aachen.ient.YUView
 ```
 
-# TMIV (To Immersive Video Coding)
+# TMIV 7.1v(To Immersive Video Coding)
 - https://gitlab.com/mpeg-i-visual/tmiv/-/tree/v7.1#building-and-installing-tmiv
 
 # RTX 3090 CUDA 설치 ( in Windows10 )
