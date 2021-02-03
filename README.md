@@ -24,8 +24,28 @@ $flatpak install $파일명 --user
 $flatpak run de.rwth_aachen.ient.YUView
 ```
 
+---
+
 # TMIV 7.1v(To Immersive Video Coding)
+- Windows : Visual_Studio 2019 / CMake 3.15 / 
+- Linux : Clang-tidy-10 / gcc-9 / g++-9 /
 - https://gitlab.com/mpeg-i-visual/tmiv/-/tree/v7.1#building-and-installing-tmiv
+
+# TMIV 8.0v
+- Windows : Visual_Studio 2019 / CMake 3.15 / 
+- Linux : Clang-tidy-10 / gcc-9 / g++-9 /
+- VVCENC/DEC 추가 - issues make_error 에서 설명
+
+|tool name| |Location|Release|
+|---|---|---|---|
+|TMIV|[N0050]|https://gitlab.com/mpeg-i-visual/tmiv|v8.0|
+|VVenC| |https://github.com/fraunhoferhhi/vvenc/tree/v0.2.0.0|v0.2.0.0|
+|VVdeC| |https://github.com/fraunhoferhhi/vvdec/tree/v0.2.0.0|v0.2.0.0|
+|VMAF|[VMAF]|https://github.com/Netflix/vmaf|v1.3.14|
+|IV-PSNR|[N 0013]|https://gitlab.com/mpeg-i-visual/ivpsnr|v3.0|
+|IVDE|[N 0058]|https://gitlab.com/mpeg-i-visual/ivde|v3.0|
+
+---
 
 # RTX 3090 CUDA 설치 ( in Windows10 )
 - https://n1094.tistory.com/42 ( cuda 설치 방법 )
