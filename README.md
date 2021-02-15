@@ -1,12 +1,40 @@
 # VideoTools
+frequently used video code & tools ( in ubuntu 18.04 )
 자주쓰는 비디오 코드 & 툴 ( in ubuntu 18.04 )
 
 # FFMPEG
+- Linux_install
 ```sh
 $sudo apt update
 $sudo apt install ffmpeg
 $ffmpeg -version
 ```
+- Windows_install
+https://blog.naver.com/chandong83/222095346417
+``` 
+Simply Description
+WindowsDownload >> .dev link >> .7z file download >> zip in C:\ >> environment path edit
+```
+
+```sh
+png files >> mp4 ( lossless )
+png파일들 > 영상 ( lossless )
+ffmpeg -i input%05d.png -v:c libx265 -crf 0 -f 30 -preset veryslow -pixel_format yuv420p8le output.mp4
+
+파일 시작번호가 100부터 진행될 경우
+png files ( 100 ~ ) >> mp4 
+ffmpeg -start_number 100 -i input%05d.png -v:c libx265 -crf 0 -f 30 -preset veryslow -pixel_format yuv420p8le output.mp4
+
+mp4 >> yuv (작업 운영체제가 일치하지 않으면 영상이 깨짐)
+ffmpeg -i output.mp4 -q 0 output.yuv
+
+png >> yuv
+ffmpeg -i input.png -pix_fmt yuv420p output.yuv 
+
+yuv >> png
+ffmpeg -f rawvideo -s 1920x1080 -i input.yuv -f image2 -vcodec png output.png 
+```
+
 
 # YUView
 - 리눅스에서 yuv 보여주는 view
