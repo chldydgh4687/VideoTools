@@ -1,5 +1,5 @@
 # VideoTools
-frequently used video code & tools ( in ubuntu 18.04 )
+frequently used video code & tools ( in ubuntu 18.04 )  
 자주쓰는 비디오 코드 & 툴 ( in ubuntu 18.04 )
 
 # FFMPEG
@@ -15,7 +15,7 @@ https://blog.naver.com/chandong83/222095346417
 Simply Description
 WindowsDownload >> .dev link >> .7z file download >> zip in C:\ >> environment path edit
 ```
-
+- Help
 ```sh
 png files >> mp4 ( lossless )
 png파일들 > 영상 ( lossless )
