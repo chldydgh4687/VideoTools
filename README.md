@@ -73,6 +73,7 @@ $flatpak run de.rwth_aachen.ient.YUView
 |IV-PSNR|[N 0013]|https://gitlab.com/mpeg-i-visual/ivpsnr|v3.0|
 |IVDE|[N 0058]|https://gitlab.com/mpeg-i-visual/ivde|v3.0|
 
+VMAF 정확한 링크 :https://github.com/Netflix/vmaf/tree/master/libvmaf
 ---
 
 # RTX 3090 CUDA 설치 ( in Windows10 )
